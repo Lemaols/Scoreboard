@@ -1,0 +1,42 @@
+body {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(40, 40, 87);
+    color: #EEEEEE;
+
+
+}
+
+
+
+#currentHomeScore, #currentGuestScore {
+    
+                                                
+    background: #0a0001 ;
+    font-size: 90px;
+    color: #f94f6d;
+    width: 120px;
+    margin: 30px;
+    
+}
+
+.score {
+
+    padding: 20px;
+
+}
+
+
+button {
+
+    background: none;
+    border-color: #9AABD8;
+    color: #9AABD8;
+
+
+}
+

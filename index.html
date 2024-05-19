@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css" href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class ="column">
+        <div class="scoreBoard1"><h3>HOME</h3></div>
+          <div><h2 class="score" id="currentHomeScore">0</h2></div>
+         
+          <div class="buttons">
+                <button id="btn-1" onclick="addOne()">+1</button>
+                <button id="btn-2" onclick="addTwo()">+2</button>
+                <button id="btn-3" onclick="addThree()">+3</button>
+          </div>
+          </div>
+
+        <div class ="column">
+        <div class="scoreBoard2"><h3>GUEST</h3></div>
+          
+          <h2 class="score" id="currentGuestScore">0</h2>
+        
+              <div class="buttons">
+                <button id="btn-1" onclick="add1()">+1</button>
+                <button id="btn-2" onclick="add2()">+2</button>
+                <button id="btn-3" onclick="add3()">+3</button>
+              </div>  
+        </div> 
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
